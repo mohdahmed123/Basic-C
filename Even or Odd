@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a,b,c;
+    printf("Enter Your First Number");
+    scanf("%d",&a);
+    printf("Enter Your Second Number");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("After Changing Value");
+    printf("\n value of a=%d",a);
+    printf("\n Value of b=%d",b);
+    
+
+    return 0;
+}
