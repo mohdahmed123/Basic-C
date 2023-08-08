@@ -2,8 +2,8 @@
 
 int main(){
     int L,area;
-    printf("enter length of squar: L ");
+    printf("enter length of square: L ");
     scanf("%d", &L);
     area=L*L;
-    printf("area of squar is= %d",area);
+    printf("area of square is= %d",area);
 }
