@@ -1,0 +1,26 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main(){
+    int a=20;
+    int x=25;
+     ++a;
+     printf("afterthe pre increment ++a%d\n",a);
+     a++;
+     printf("after post increment a++%d\n",a);
+     --x;
+     printf("after the pre decrement --x %d\n",x);
+     x--;
+     printf("after the post decrement x-- %d\n",x);
+}
+     
+     
+     
+    
+
+       
+    
+    
+    
+    
+}
