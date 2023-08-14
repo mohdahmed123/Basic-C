@@ -1,13 +1,14 @@
 // Online C compiler to run C program online
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int a=20;
     int x=25;
      ++a;
-     printf("afterthe pre increment ++a%d\n",a);
+     printf("after the pre increment ++a%d\n",a);
      a++;
-     printf("after post increment a++%d\n",a);
+     printf("after the post increment a++%d\n",a);
      --x;
      printf("after the pre decrement --x %d\n",x);
      x--;
