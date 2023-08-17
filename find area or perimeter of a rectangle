@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+void main()
+{
+    float a,l,b,p;
+    printf("enter your length or breath of a rectangle=");
+    scanf("%f%f",&l,&b);
+    a=l*b;
+    p=2*(l+b);
+    printf("your area of a rectangle is=%0.2f\n",a);
+    printf("your perimeter of a rectangle is= %0.2f\n",p);
+}
