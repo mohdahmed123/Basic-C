@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main()
+{
+    const float pi=3.14;
+    float a,c,r;
+    printf("enter the redius of a circle is=");
+    scanf("%f",&r);
+    a=pi*r*r;
+    c=2*pi*r;
+    printf("your area of a circle is= %0.3f\n",a);
+    printf("your circumfrence of a circle is= %0.3f\n",c);
+    
+}
