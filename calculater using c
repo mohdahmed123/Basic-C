@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+int main() 
+{
+    int a,b,option;
+    printf("enter your two number= ");
+    scanf("%d%d",&a,&b);
+    printf("*****************************\n");
+    printf("select any one option\n 1 for additoin\n 2 for subtractoin\n 3 for multiply \n 4 for divide \n");
+    printf("enter your option=");
+    scanf("%d",&option);
+    printf("*****************************\n");
+    switch (option)
+    {
+    case 1 : printf("addition is %d",a+b); break;
+
+    case 2 : printf("substractoin is %d",a-b); break;
+    
+    case 3 : printf("multiply is %d",a*b); break;
+    
+    case 4 : printf("s=divide is %d",a/b); break;
+     
+    default : printf("number is invlid");      
+    }
+}
