@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() 
+{ 
+    int a[5]={7,5,8,5,6};
+    int larger=a[0];
+    int i;
+    
+    for(i=1;i<4;i++)
+    {
+        if(a[0]<a[1])
+        {
+            large=a[0];
+        }
+    }
+    printf("the large number= %d ",large);
+
+
+
+
+}
