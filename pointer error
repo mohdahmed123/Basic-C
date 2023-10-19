@@ -1,0 +1,26 @@
+#include<stdio.h>
+main()
+{
+    int a;
+    a=10;
+    printf("value of a=%d",a);
+    printf("\nadd of a=%d",&a);
+    printf("\n------------\n");
+    a=20;
+    printf("value of a=%d",a);
+    printf("\nadd of a=%d",&a);
+    printf("\n------------\n");
+    int *spy;
+    spy=&a;
+    spy=50;
+    printf("value of spy=%d",spy);
+    printf("\nadd of spy=%d",&spy);
+    printf("\n------------\n");
+    printf("value of a=%d",*spy);
+    
+    
+    
+    
+}
+
+
