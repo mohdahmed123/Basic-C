@@ -1,16 +1,12 @@
 #include <stdio.h>
-void swap(int a,int b)
+swap(int a,int b)
 {int c;
-    c=a;
-    a=b;
-    b=c;
+    c=a;a=b;b=c;
     printf("***********************\n");
-    printf("AFTER SWAPING\n");
-    printf("a is %d\n",a);
-    printf("b is %d\n",b);
-    printf("******CODE IS END******\n");
-}
-void main()
+    printf("AFTER SWAPING:-\n");
+    printf("a = %d\n",a);
+    printf("b = %d\n",b);}
+     main()
 {   int a,b;
     printf("*****CODE IS START*****\n");
     printf("enter your number a ");
@@ -18,5 +14,7 @@ void main()
     printf("enter your number b ");
     scanf("%d",&b);
     swap(a,b);
-}
+    printf("******CODE IS END******\n");}
+
+
 
